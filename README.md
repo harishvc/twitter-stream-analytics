@@ -15,7 +15,7 @@ Visit <a href="http://dev.twitter.com">Twitter Developer</a>. Register your app 
 
 
 ## Steps 2: Configure the app
-1. copy config/appconfig-demo.js as config/appconfig.js
+Rename config/appconfig-demo.js as config/appconfig.js
 ```
 port: 80,                          //port to start express
 title: "My Title",                //enter title
@@ -43,8 +43,7 @@ TDEBUG: false,                    //Debug flags for twitter.js
 MONGODEBUG: false,                //Debug flags for mongodb.js
 DBTDEBUG: false                   //Debug flags for dbTrainman.js
 ````
-
-2. copy config/twitter-credentials-demo.js as config/twitter-credentials.js and provide your API keys
+Rename config/twitter-credentials-demo.js as config/twitter-credentials.js and provide your API keys
 ````
 consumer_key: "something",
 consumer_secret: "something",
@@ -54,14 +53,16 @@ access_token_secret: "soemthing"
 
 ## Step 3: Deploy the app
 ````
-sudo node server.js  //using sudo since running on port 80
+$> sudo node server.js  //using sudo since running on port 80
 ````
 
 ## Examples:
 <a href="http://harishvc.com/2014/02/10/sochi2014-day4/">Sochi 2014: Day 4 Twitter Report</a>
+<br/>
 <a href="http://harishvc.com/2014/02/02/sb48/">SuperBowl 48: Halftime Twitter Report</a>
 
 
-## Author: Harish Chakravarthy (twitter.com/harishvc)
+## Author: 
+Harish Chakravarthy (twitter.com/harishvc)
 
 
