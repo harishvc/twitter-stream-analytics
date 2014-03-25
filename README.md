@@ -14,7 +14,7 @@ Generate real-time analytics from Twitter Streaming API using Node.js, MongoDB  
 Visit <a href="http://dev.twitter.com">Twitter Developer</a>. Register your app and generate API keys.
 
 
-## Steps 2: Configure the app
+## Step 2: Configure the app
 Rename config/appconfig-demo.js as config/appconfig.js
 ```
 port: 80,                          //port to start express
@@ -56,13 +56,13 @@ access_token_secret: "soemthing"
 $> sudo node server.js  //using sudo since running on port 80
 ````
 
-## Examples:
+## Examples
 <a href="http://harishvc.com/2014/02/10/sochi2014-day4/">Sochi 2014: Day 4 Twitter Report</a>
 <br/>
 <a href="http://harishvc.com/2014/02/02/sb48/">SuperBowl 48: Halftime Twitter Report</a>
 
 
-## Author: 
+## Author 
 Harish Chakravarthy (twitter.com/harishvc)
 
 
