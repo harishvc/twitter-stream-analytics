@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Twitter Analytics Live</title>
+    <!--[if !IE]>-->
+    <script src="/assets/js/jquery-2.0.3.min.js"></script>
+    <!--<![endif]-->
+    <!--[if IE]>
+    <script src="/assets/js/jquery-1.10.2.min.js"></script>
+    <![endif]-->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/jquery.collagePlus.min.js"></script>
+    <script src="/javascripts/jquery.removeWhitespace.min.js"></script>
+    <script src="/javascripts/d3.min.js"></script>
+    <script src="/javascripts/iopctrl.js"></script>	   
+    <script src="/javascripts/charts.js"></script>
+    <script src="/javascripts/client-app.js"></script>
+    <script src="/javascripts/d3.layout.cloud.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/assets/css/style.css" rel="stylesheet"/>	
+    <link href="/css/enhancements.css" rel="stylesheet"/>	
+    <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>	
+	 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	 <script src="assets/js/respond.min.js"></script>
+	 <script src="assets/css/ie6-8.css"></script>	
+    <![endif]-->
+    <script type="text/javascript">
+     $(document).ready(function(){
+            collage();
+     });
+    function collage() {
+        $('.Collage').removeWhitespace().collagePlus(
+            {
+                'fadeSpeed'     : 2000,
+                'targetHeight'  : 200,
+                'direction'       : 'vertical',
+                'allowPartialLastRow' : true
+            }
+        );
+    };
+    
+    $('.affix1').affix({
+    offset: {
+      top: 190
+     , bottom: function () {
+        return (this.bottom = $('.bs-footer').outerHeight(true))
+      }
+    }
+   });
+   
+  </script>
+  </head>
+    <body>
+    <%- body %>
+  </body>
+</html>

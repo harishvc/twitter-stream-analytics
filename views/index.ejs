@@ -1,0 +1,48 @@
+ <!-- include header -->
+    <% layout('layout') -%>
+    
+    <script type="text/javascript" src="/javascripts/indexsocket.js"></script> 
+
+    <%- include header-nomenu.ejs %>
+    <%- include primarynavigation.ejs %>
+	
+		<div class="container">
+		<div class="row">
+				 <!-- start: Main Menu on left -->
+                           <%- include mainmenunavigationempty.ejs %>
+                        <!-- end: Main Menu on left -->
+						
+			<!-- start: Content -->
+			<div id="content" class="col-lg-10 col-sm-11 full">		
+						
+						
+			<div class="row">	
+					
+			<!-- HVC: Add chart here -->	
+			<!-- START -->
+            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-md-12">
+                     <div id="showstatus"></div>
+                </div>
+
+
+            <!-- END -->
+					
+				
+				
+				<!--/col-->	
+			
+			</div>
+			
+			</div><!--/row-->	
+			
+             
+					
+			</div><!-- end: content -->
+				
+				</div><!--/row-->		
+		
+	</div><!--/container-->
+	
+	<%- include footer.ejs %>
+	

@@ -1,0 +1,236 @@
+@font-face {
+	font-family: 'digi';
+	src: url('/css/digi.ttf');
+}
+
+.row .col-lg-3 {
+width: 20%;
+}
+
+.digital {
+	font-family: 'digi';
+    font-size: 150%;
+} 
+            
+.axis .digital {
+        font-family: 'digi';
+        font-size: 100%;
+} 
+
+.navbar-brand  {
+  font-size: 25px;
+  margin-left: none;
+} 
+
+a.navbar-brand {
+width: 20%;	
+//position: absolute;
+}
+
+.navbar a {
+        color: white;
+}
+
+.nav-tabs{
+padding: 10px;
+border: none;
+background: none;	
+}
+
+a {
+color: #428bca;
+text-decoration: none;
+}
+
+body {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+}
+
+.container #content {
+padding: 10px;
+}
+
+/*
+#content {
+  background: #CCC;
+}
+*/
+
+/*
+.lbtable {
+ -webkit-box-shadow: 0 0 5px 2px rgba(54, 50, 50, 0.75);
+ -moz-box-shadow: 0 0 5px 2px rgba(54, 50, 50, 0.75);
+  box-shadow: 0 0 5px 2px rgba(54, 50, 50, 0.75);
+}
+*/
+
+.spacer {
+    padding-right: 15px;
+}
+
+table.lbtable  tr:nth-child(odd) td{
+   /* styles here */
+  background: #CCC;
+}
+table.lbtable tr:nth-child(even) td{
+   /* styles here */
+  background: #FFF;
+}
+
+table.lbtable {
+    border-collapse: collapse;
+    //font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-size: 14px;
+}
+
+table.lbtable th {
+    padding-bottom:2px;
+    padding-right:5px;
+    padding-left:5px;
+    text-align:left;
+}
+
+table.lbtable td {
+    padding: 10px 0; /* 10px top & bottom padding, 0px left & right */
+    vertical-align:top;
+    padding-right:5px;
+    padding-left:5px;
+    text-align:left;
+}
+
+/*
+.separating_line {
+    border-top: 1px #000 solid;
+    border-spacing: 2px;
+    border-color: grey;
+}
+*/
+
+path {
+   stroke: steelblue;
+   stroke-width: 2;
+   //fill: none;   // 4 pie chart
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.area {
+  fill: lightsteelblue;
+}
+
+.trow .image {
+    float: left
+}
+.image img {
+    display: block
+}
+.trow .info {
+    margin-left: 75px
+}
+
+.trow .author {
+ margin-left:0px; margin-bottom:5px 
+}
+
+.trow .tweet {
+ margin-left:0px; margin-bottom:5px 
+}
+
+.trow .stats {
+   margin-left:0px; margin-bottom:20px; font-weight: bold
+}
+
+.trow .spacer {
+    padding-right: 15px
+}
+
+.trow .handle {
+    color: grey
+}
+
+.chart {
+  /* background: #b0e0f8; */ 
+  margin: 5px;
+}
+
+.chart rect {
+  stroke: white;
+  fill: steelblue;
+}
+
+.chart text {
+  /* fill: white; */
+}
+
+.chart text.name {
+  fill: #000;
+}
+
+.chart line {
+  stroke: #c1c1c1;
+}
+
+.chart .rule {
+  fill: #000;
+}
+
+//http://collageplus.edlea.com/
+.row #Collage {
+    padding:10px;
+}
+
+.container-fixed {width:800px;}
+
+.navbar2 {
+position: fixed;
+margin: 0;
+min-height: 40px;
+border: 0;
+background: #36a9e1;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+
+.row .freeze44444{
+ position: fixed;
+ width: 100%;
+ top: 0;
+  left: 0;
+  //right: 0;
+  height: 250px;
+  //background-color: #000;	
+}
+
+
+.show img{
+    margin:0;
+    padding:5;
+    display:inline-block;
+    //vertical-align:bottom;
+    vertical-align: top;
+    opacity:1;
+    border: 5px;
+    //border: 5px solid rgba(0, 0, 0, 0.3);
+}
+
+.Collage img{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    //vertical-align:bottom;
+    vertical-align: top;
+    opacity:1;
+    border:5px solid #FFF;
+}
+
+footer {
+height: 63px;
+}

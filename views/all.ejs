@@ -1,0 +1,67 @@
+ <!-- include header -->
+    <% layout('layout-all') -%>
+     <script type="text/javascript" src="/javascripts/lbsocket.js"></script>
+    <%if (showstatus == "now") { %>
+            <%- include header.ejs %>
+    <% } %>
+    <%if (showstatus != "now") { %>
+            <%- include header-nomenu.ejs %>
+    <% } %>
+	<%- include primarynavigation.ejs %>
+	
+	<div class="container">
+		<div class="row">		
+			<%if (showstatus == "now") { %>			 
+			   <!-- start: Main Menu on left -->		
+			   <%- include mainmenunavigation.ejs %>
+			   <!-- end: Main Menu on left -->
+			   <!-- start: Content -->
+			   <div id="content" class="col-lg-10 col-sm-11">
+			    <%- include statsheader.ejs %>
+			        <div class="row">	
+                      <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                          
+                          <h2><a name="lb"></a>Leader Board</h2>
+                          <div id="leaderboard">working ....</div> 
+                           
+                            <h2><a name="et"></a>Engaging Tweets</h2>
+                            <div id="etweets">working....</div>
+                                                    
+                           <h2><a name="tz"></a>User Timezone</h2>
+                            <div id="usertz">working....</div>
+  
+                            <h2><a name="mentions"></a>Mentions</h2>
+                            <div id="mentions">working....</div>
+
+                            <h2><a name="source"></a>Source</h2>
+                            <div id="source">working....</div>
+                              
+                            <h2><a name="frequency"></a>Tweet Frequency</h2>
+                            <div id="tfrequency">working....</div>
+                           
+                           <h2><a name="hc"></a>Hashtag Cloud</h2>
+                            <div id="wcloud">working....</div>
+
+                           <h2><a name="pc"></a>Photo Grid</h2>
+                            <div id="photogrid">coming ....</div>
+                           
+                      </div>	
+			        </div>
+			       </div>		
+			<% } %>
+			<%if (showstatus != "now") { %>
+			    <%- include mainmenunavigationempty.ejs %>
+			    <div id="content" class="col-lg-10 col-sm-11 full">			
+			      <div class="row">	
+                   <div class="col-xs-12 col-md-12">
+                     <div id="showstatus"></div>
+                   </div>
+			      </div>
+			     </div>		
+			<% } %>			
+			 	
+          </div><!--/row-->		
+	  </div><!--/container-->
+	
+	<%- include footer.ejs %>
+	
