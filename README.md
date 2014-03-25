@@ -1,17 +1,26 @@
 Generate real-time analytics from Twitter Streaming API using Node.js, MongoDB  & d3
 
 ## App Layout
-
+````
+config             // config files
+node_modules       //node_modules
+public             //css & js
+view               //ejs template files
+server.js         // Express3 server
+````
 
 ## Step 1: Join Twitter Developer
+Visit <a href="http://dev.twitter.com">Twitter Developer</a>. Register your app for API keys
 
 
-## Step 2: Configure the app
+## Steps 2: Configure the app
+
 
 ## Step 3: Deploy the app
 
 
-## Examples
+## Examples:
 
-## Author
-<a href="http://twitter.com/harishvc">Harish Chakravarthy</a>
+## Author: Harish Chakravarthy (twitter.com/harishvc)
+
+
