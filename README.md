@@ -14,4 +14,4 @@ Generate real-time analytics from Twitter Streaming API using Node.js, MongoDB  
 ## Examples
 
 ## Author
-Harish Chakravarthy (twitter.com/harishvc)
+<a href="http://twitter.com/harishvc">Harish Chakravarthy</a>
